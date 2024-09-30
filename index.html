@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinate Converter</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+<div class="container">
+    <h2>Coordinate Converter</h2>
+    
+    <h3>Convert Decimal Degrees to DMS:</h3>
+    <input type="text" id="decimal" placeholder="Enter Decimal Degrees">
+    <button onclick="convertToDMS()">Convert to DMS</button>
+    <div class="output" id="dmsOutput"></div>
+
+    <h3>Convert DMS to Decimal Degrees:</h3>
+    <input type="number" id="degrees" placeholder="Degrees">
+    <input type="number" id="minutes" placeholder="Minutes">
+    <input type="number" id="seconds" placeholder="Seconds">
+    <button onclick="convertToDecimal()">Convert to Decimal</button>
+    <div class="output" id="decimalOutput"></div>
+</div>
+<footer>
+    <p>&copy; 2024 Coordinate Converter | Designed by Subham Das</p>
+</footer>
+<script src="script.js"></script> <!-- Link to the JavaScript file -->
+
+</body>
+</html>
